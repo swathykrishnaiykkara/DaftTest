@@ -20,6 +20,5 @@ try:
     SearchPage.click_search_results()
     ResultPage.select_first_item()
     AdPage.key_word_present()
-
 finally:
     driver.quit()
